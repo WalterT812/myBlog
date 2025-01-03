@@ -65,7 +65,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: /img/banner-img.webp
+index_img: /img/banner_img.webp
 
 # The banner image of archive page
 archive_img:
