@@ -1,0 +1,48 @@
+{
+  "rules": [
+    {
+      "description": "Example rule",
+      "pattern": "*.js",
+      "suggestions": [
+        "Use const instead of var",
+        "Prefer arrow functions"
+      ]
+    },
+    {
+      "description": "Commit message rules",
+      "pattern": "*.commit",
+      "suggestions": [
+        "Use the following format for commit messages:",
+        "",
+        "<type>[optional scope]: <description>",
+        "",
+        "[optional body]",
+        "",
+        "[optional footer(s)]",
+        "",
+        "Guidelines:",
+        "- Use English for commit messages",
+        "- Use simple and clear words",
+        "",
+        "type: Specifies the nature of the commit:",
+        "- fix: Fix a bug",
+        "- feat: Add a new feature",
+        "- build: Change build configuration or external dependencies",
+        "- style: Update code formatting (changes that do not affect code execution)",
+        "- chore: Other changes that do not modify src or test files (e.g., documentation, configuration)",
+        "- refactor: Refactor code (neither fixes a bug nor adds a feature)",
+        "- ci: Change continuous integration configuration",
+        "- test: Add or modify tests",
+        "- docs: Update documentation",
+        "",
+        "scope: (optional) Specifies the scope of the change, such as module or component name.",
+        "",
+        "description: A brief description of the commit, summarizing what was done.",
+        "",
+        "body: (optional) A detailed description of the commit, including why the change was made or how it was implemented.",
+        "",
+        "footer(s): (optional) Contains metadata such as issue numbers, e.g., Closes #123."
+      ]
+    }
+  ]
+}
